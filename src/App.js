@@ -5,10 +5,10 @@ import IssueMain from "./components/IssueMain";
 function App() {
   // getData();
   return (
-    <div className="container bg-color">
+    <div className="container bg-dark">
       <div className="row">
         <div className="col">
-          <h1 className="text-white d-flex justify-content-center text-primary">
+          <h1 className="text-white d-flex justify-content-center text-primary border-bottom py-4 ">
             Github Issue
           </h1>
           <IssueMain />
