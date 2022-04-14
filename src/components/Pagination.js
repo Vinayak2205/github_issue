@@ -14,7 +14,7 @@ export const Pagination = ({ issuePerPage, totalIssues, paginate }) => {
             <a
               onClick={() => paginate(number)}
               href="!#"
-              className="page-link bg-dark"
+              className="page-link bg-dark "
             >
               {number}
             </a>
